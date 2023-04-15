@@ -1,4 +1,3 @@
-
 # Pull ami ID based on filters
 data "aws_ami" "linux2" {
   most_recent = true
@@ -37,5 +36,4 @@ resource "aws_vpc" "demovpc" {
   }
 }
 
-# master branch
-# jjtech branch
+# Changes made on remote repo
