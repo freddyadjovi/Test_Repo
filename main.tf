@@ -36,4 +36,4 @@ resource "aws_vpc" "demovpc" {
   }
 }
 
-# Changes made on remote repo
+# Changes made on remote but using gitpull
