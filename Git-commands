@@ -142,7 +142,7 @@ git tag -a <tag-version e.g v1.0.0> <commit ID> -m "tag-message" # tagging a spe
 
 git tag -d <delete tags> # Deletes specific tags
 
-git tag -d $(git tag -l) # Deletes all tags
+git tag -d $(git tag -l) # Deletes all tags    git tag -d v1.0.0 v2.0.0
 
 git push origin master <tag-name> # Push code changes with specific tags
 
@@ -150,5 +150,6 @@ git push origin master <tag-name> # Push code changes with specific tags
 
 git push origin master --tags Push code changes with all tags
 
+git clone --branch <tag_name> <repo_url>
 
 
